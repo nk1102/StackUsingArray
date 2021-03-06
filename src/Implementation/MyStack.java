@@ -15,6 +15,10 @@ public class MyStack implements StackADT {
 
     @Override
     public void push(int element) {
+        if (top != MAX_CAPACITY-1){ // it denotes that stack is  not full
+         arr[top]= element;
+         top++;
+        }
 
     }
 
