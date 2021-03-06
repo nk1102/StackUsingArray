@@ -27,7 +27,16 @@ public class MyStack implements StackADT {
 
     @Override
     public int pop() {
-        return 0;
+        int response=0;
+        if (!isempty()){
+            top--;
+            response=arr[top];
+
+        }
+        else{
+            System.out.println("Error : Stack Underflow ");
+        }
+        return response;
     }
 
     @Override
