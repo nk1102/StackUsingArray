@@ -9,6 +9,7 @@ public class MyStack implements StackADT {
     public MyStack(int MAX_CAPACITY) {
         this.MAX_CAPACITY = MAX_CAPACITY;
         arr = new int[MAX_CAPACITY];
+        top=-1;
     }
 
 
