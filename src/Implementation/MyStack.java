@@ -5,6 +5,7 @@ import MyInterface.StackADT;
 public class MyStack implements StackADT {
     private final int MAX_CAPACITY;
     int[] arr;
+    int top;
 
 
 }
