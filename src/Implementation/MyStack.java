@@ -19,6 +19,9 @@ public class MyStack implements StackADT {
          arr[top]= element;
          top++;
         }
+        else{
+            System.out.println("Error : Stack Overflow ");
+        }
 
     }
 
