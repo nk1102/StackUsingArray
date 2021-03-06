@@ -3,6 +3,10 @@ package Implementation;
 import MyInterface.StackADT;
 
 public class MyStack implements StackADT {
+    private final int MAX_CAPACITY;
+
+    }
+
 
     @Override
     public void push(int element) {
